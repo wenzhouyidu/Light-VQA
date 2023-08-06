@@ -1,2 +1,2 @@
 # LightVQA
-Dataset and codes will be released soon.
+Dataset and codes are in branch master.
