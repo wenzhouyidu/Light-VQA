@@ -39,3 +39,4 @@ python train.py
 ```shell
 python test.py
 ```
+Pretrained weights can be downloaded here: https://drive.google.com/file/d/1GEvjpbDwG7L3fekkLt2eQQ3ozzAz3qCx/view?usp=sharing.
