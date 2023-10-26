@@ -3,7 +3,7 @@ Light_VQA: A Multi-Dimensional Quality Assessment Model for Low Light Video Enha
 ## Description
 This is a repository for the model proposed in the paper ["Light_VQA: A Multi-Dimensional Quality Assessment Model for Low Light Video Enhancement"](https://arxiv.org/abs/2305.09512)(accepted by ACM MM 2023).
 ![image](https://github.com/wenzhouyidu/Light-VQA/blob/master/framework.png)
-The framework of Light-VQA is illustrated in Figure 2. Considering
+The framework of Light-VQA is illustrated in here. Considering
 that among low-level features, brightness and noise have the most
 impact on low-light enhanced VQA [37], in addition to semantic
 features and motion features extracted from deep neural network,
@@ -50,3 +50,15 @@ python train.py
 python test.py
 ```
 Pretrained weights can be downloaded here: https://drive.google.com/file/d/1GEvjpbDwG7L3fekkLt2eQQ3ozzAz3qCx/view?usp=sharing.
+
+## Citation
+
+If you find this code is useful for your research, please cite:
+```
+@inproceedings{lightvqa2023,
+title = {Light_VQA: A Multi-Dimensional Quality Assessment Model for Low Light Video Enhancement},
+author = {Yunlong Dong, Xiaohong Liu, Yixuan Gao, Xunchu Zhou, Tao Tan and Guangtao, Zhai},
+booktitle={Proceedings of the 31th ACM International Conference on Multimedia},
+year = {2023},
+}
+```
